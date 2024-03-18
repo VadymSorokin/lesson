@@ -57,6 +57,7 @@ body {
 .practice-rubik p {
 	text-transform: lowercase;
 	letter-spacing: 8px;
+	text-align: justify;
 }
 
 ul li,
