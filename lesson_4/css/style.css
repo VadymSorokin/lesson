@@ -1,0 +1,91 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 400;
+}
+
+.title {
+	text-shadow: -6px -6px 12px blue, 6px 6px 14px yellow;
+}
+
+.title,
+.sub-title {
+	font-weight: 600;
+	text-align: center;
+}
+
+.practice {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.practice h2 {
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 600;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.practice-roboto {
+	font-family: "Roboto", sans-serif;
+}
+
+.practice-roboto h2 {
+	text-decoration: underline double green 2px;
+	text-shadow: 4px -4px 12px green;
+	color: aquamarine;
+}
+
+.practice-roboto p {
+	text-transform: uppercase;
+	word-spacing: 12px;
+}
+
+.practice-rubik {
+	font-family: "Rubik", sans-serif
+}
+
+.practice-rubik h2 {
+	text-decoration: line-through dotted green 2px;
+	text-shadow: -4px 4px 12px rgb(0, 119, 128);
+	color: rgb(146, 127, 255);
+}
+
+.practice-rubik p {
+	text-transform: lowercase;
+	letter-spacing: 8px;
+}
+
+ul li,
+.text {
+	line-height: 1.87;
+	/* 30/16 */
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 1.29;
+	/* 62/48 */
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 1.2;
+	/* 48/40 */
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 1.4;
+	/* 28/20 */
+}
+
+footer a {
+	text-decoration: underline blue 12px;
+	color: darkblue;
+	font-weight: 600;
+}
