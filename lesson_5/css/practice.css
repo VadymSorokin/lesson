@@ -1,0 +1,59 @@
+
+.practice {
+	padding: 32px 0;
+	background-color: rgb(246, 241, 180);
+}
+
+
+.practice-inline {
+	background-color: aqua;
+	color: antiquewhite;
+	line-height: 1.4;
+	max-height: 100px;
+	max-width: 1024px;
+	margin: 0 auto 24px;
+	overflow-y: auto;
+	text-align: justify;
+	text-indent: 100px;
+	text-transform: uppercase;
+}
+
+.inline {
+	background-color: blueviolet;
+	letter-spacing: 2px;
+}
+
+.practice-block {
+	background-color: chartreuse;
+	max-width: 1024px;
+	max-height: 280px;
+	margin: 0 auto;
+	overflow: scroll;
+}
+
+.block {
+	line-height: 1.4;
+	text-indent: 48px;
+	text-align: justify;
+	text-transform: capitalize;
+	text-decoration: underline dotted blue 4px;
+}
+
+.practice-inline-block {
+	display: block;
+	font-size: 0;
+	text-align: center;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.inline-block {
+	vertical-align: top;
+	background-color: chocolate;
+	color: blanchedalmond;
+	display: inline-block;
+	font-size: 16px;
+	max-width: 50%;
+	min-width: 100px;
+	padding: 6px;
+}
