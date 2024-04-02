@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500);
+@import url(https://fonts.googleapis.com/css?family=Exo:regular,700);
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Exo';
+	src: url('../fonts/exo/Exo-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Exo';
+	src: url('../fonts/exo/Exo-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+

@@ -1,0 +1,206 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: normal;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, rgba(0, 195, 255, 0.466) 0%, rgba(255, 251, 0, 0.298) 100%);
+}
+
+.page>div {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.page>div:not(:last-child) {
+	margin-bottom: 48px;
+}
+
+p {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 16px;
+	color: rgba(0, 0, 0, 0.493);
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 1.2;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.315);
+	margin-bottom: 16px;
+}
+
+nav ul {
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0.473);
+	border-radius: 4px;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.315);
+	margin-bottom: 16px;
+	background: linear-gradient(90deg, rgba(255, 251, 0, 0.216) 0%, rgba(0, 195, 255, 0.188) 100%);
+	text-transform: capitalize;
+
+}
+
+nav li {
+	display: inline-block;
+	font-size: 32px;
+	vertical-align: top;
+	padding-inline: 16px;
+}
+
+nav li:hover {
+	text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.315);
+}
+
+h2 {
+	font-size: 48px;
+	line-height: 1.2;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.561);
+	text-decoration: 2px underline rgba(0, 0, 0, 0.428);
+	margin-bottom: 24px;
+}
+
+.icons-element {
+	vertical-align: top;
+	box-shadow: 4px 4px 16px rgba(203, 202, 140, 0.452), -4px -4px 16px rgba(204, 203, 147, 0.161);
+	padding: 24px;
+}
+.icons-element>*:not(:first-child) {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+div li {
+	padding: 8px;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+
+.icon-list>li:nth-child(1)::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(../source/icon-svg/arrow-up.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.icon-list>li:nth-child(2)::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(../source/icon-svg/arrow-down.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 16px;
+	vertical-align: middle;
+
+}
+
+.icon-list>li:nth-child(3)::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(../source/icon-svg/question.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 16px;
+	vertical-align: middle;
+
+}
+
+.icon-list>li:nth-child(4)::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(../source/icon-svg//telegram.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 16px;
+	vertical-align: middle;
+
+}
+
+.icon-list>li:nth-child(5)::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(../source/icon-svg/viber.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 16px;
+	vertical-align: middle;
+
+}
+
+.icon-list>li:nth-child(6)::before {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(../source/icon-svg/whatsapp.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.design-element {
+	box-shadow: 4px 4px 16px rgba(203, 202, 140, 0.452), -4px -4px 16px rgba(204, 203, 147, 0.161);
+	padding: 16px;
+}
+
+.design-element>*:not(:first-child) {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+.design-list>li {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 40px;
+	margin-bottom: 12px;
+}
+
+.design-list>li:not(:last-child) {
+	margin-right: 12px;
+}
+
+.content-element {
+	max-width: 1502px;
+	box-shadow: 4px 4px 16px rgba(203, 202, 140, 0.452), -4px -4px 16px rgba(204, 203, 147, 0.161);
+	padding: 16px;
+}
+
+.content-element>*:not(:first-child) {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+.content-element>p {
+	text-align: justify;
+}
+
+
+.footer {
+	text-align: center;
+	font-size: 48px;
+	text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.414);
+	color: rgba(0, 0, 0, 0.459);
+	padding: 24px 0;
+}
+
+.footer>a:hover {
+	color: rgba(0, 0, 0, 0.753);
+}
