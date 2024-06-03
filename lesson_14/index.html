@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 14 Forms</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1 class="header__title">Lesson 14</h1>
+		</header>
+
+		<main class="page">
+			<div class="form">
+				<form enctype="multipart/form-data" action="#">
+					<div class="customer">
+						<div class="customer__container">
+							<h3 class="customer__title">Інформація про покупця</h3>
+							<fieldset class="customer__information">
+								<input name="form[]" tabindex="1" required
+									placeholder="Прізвище" type="text" class="customer__input">
+								<input name="form[]" tabindex="4" required
+									placeholder="Контактний телефон" type="tel"
+									class="customer__input">
+								<input name="form[]" tabindex="2" required placeholder="Ім’я"
+									type="text" class="customer__input">
+								<input name="form[]" tabindex="5" required placeholder="E-mail"
+									type="email" class="customer__input">
+								<input name="form[]" tabindex="3" required
+									placeholder="По батькові" type="text" class="customer__input">
+							</fieldset>
+							<fieldset class="customer__check">
+								<input type="checkbox" name="form[]" id="receiver"
+									value="different receiver" class="customer__checkbox">
+								<label class="customer__label" for="receiver">Отримуватиме
+									замовлення інша людина</label>
+							</fieldset>
+						</div>
+					</div>
+					<div class="delivery">
+						<div class="delivery__container">
+							<h3 class="delivery__title">Вибір способу доставки</h3>
+							<div class="delivery__information">
+								<fieldset>
+									<ul class="delivery__list">
+										<li class="delivery__item">
+											<input id="self-pickup"
+												class="delivery__radio self-pickup" type="radio"
+												name="delivery-type">
+											<label for="self-pickup">
+												<span class="delivery__type">Самовивіз із
+													магазину</span>
+												<span class="delivery__price">Бесплатно</span>
+											</label>
+										</li>
+										<li class="delivery__item">
+											<input id="nova-post" class="delivery__radio nova-post "
+												type="radio" name="delivery-type">
+											<label for="nova-post">
+												<span class="delivery__type">Доставка Нова Пошта</span>
+												<span class="delivery__price">≈ від 500 грн</span>
+											</label>
+										</li>
+										<li class="delivery__item">
+											<input id="courier" class="delivery__radio courier"
+												type="radio" name="delivery-type">
+											<label for="courier">
+												<span class="delivery__type">Доставка кур'єром</span>
+												<span class="delivery__price">≈ від 200 грн</span>
+											</label>
+										</li>
+									</ul>
+								</fieldset>
+							</div>
+							<div class="delivery__location">
+								<div class="delivery__address-box">
+									<p class="delivery__schedule">Графік роботи: щодня з 9:00 до
+										18:00
+									</p>
+									<p class="delivery__address">м. Київ, пров. Ізяславський 52,
+										пов. 2</p>
+								</div>
+								<div class="delivery__map map">
+									<a href="#" class="map__link">На мапі</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="payment">
+						<div class="payment__container">
+							<h3 class="payment__title">Вибір способу оплати</h3>
+							<fieldset>
+								<ul class="payment__list">
+									<li class="payment__item">
+										<input type="radio" name="form[1]" id="payment-cash">
+										<label for="payment-cash">Готівкою при отриманні
+											(Післясплата)</label>
+									</li>
+									<li class="payment__item">
+										<input type="radio" name="form[1]" id="payment-credit-card">
+										<label for="payment-credit-card">Оплата карткою на
+											сайті</label>
+									</li>
+									<li class="payment__item">
+										<input type="radio" name="form[1]" id="payment-private-pay">
+										<label for="payment-private-pay">Privat Pay</label>
+									</li>
+									<li class="payment__item">
+										<input type="radio" name="form[1]"
+											id="payment-krovato-credit">
+										<label for="payment-krovato-credit">Кредит від
+											Krovato</label>
+									</li>
+									<li class="payment__item">
+										<input type="radio" name="form[1]"
+											id="payment-private-credit">
+										<label for="payment-private-credit">Оплата частинами
+											ПриватБанк</label>
+									</li>
+									<li class="payment__item">
+										<input type="radio" name="form[1]" id="payment-mono-credit">
+										<label for="payment-mono-credit">Оплата частинами
+											МоноБанк</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+					</div>
+					<div class="feedback">
+						<div class="feedback__container">
+							<h3 class="feedback__title">Коментар до замовлення</h3>
+							<textarea name="form[]" id="feedback" class="feedback__text"
+								placeholder="Ваш коментар"></textarea>
+						</div>
+					</div>
+					<div class="check-out">
+						<div class="check-out__container">
+							<button class="check-out__button" type="submit">ОФОРМИТИ
+								ЗАМОВЛЕННЯ
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="http://jigsaw.w3.org/css-validator/images/vcss"
+						alt="Valid CSS!">
+				</a>
+			</p>
+			<p>
+				<a href="https://github.com/VadymSorokin/lessons" target="_blank">GitHub Lessons Vadym
+					Sorokin</a>
+			</p>
+
+		</footer>
+	</div>
+</body>
+
+</html>
